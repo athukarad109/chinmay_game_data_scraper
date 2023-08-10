@@ -11,7 +11,7 @@ options.add_argument('--headless')
 
 DRIVER_PATH = "D:\chromedriver-win32\chromedriver-win32\chromedriver"
 # firefox = "D:\Firefox driver\geckodriver-v0.33.0-win32"
-driver = webdriver.Chrome(executable_path=DRIVER_PATH, options=options)
+driver = webdriver.Chrome(options=options)
 
 
 #TODOS - create function to fetch number of reviews and number of units sold - review to sales
